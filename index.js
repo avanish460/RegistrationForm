@@ -3,7 +3,7 @@ const mongoose=require("mongoose");
 const app=require("express")();
 const bodyParser=require("body-parser");
 const port=7777;
-const url='mongodb+srv://avdubey460:221208up@cluster0.kaqsx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const url='mongodb+srv://Username:password@cluster0.kaqsx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 mongoose.connect(url).then(()=>{
     console.log('connected to database.....');
 }).catch(err=>{console.log(err)});
